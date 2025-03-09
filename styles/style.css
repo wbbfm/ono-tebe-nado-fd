@@ -1,1 +1,183 @@
-/* место для вашего кода */
+.header {
+    height: 293px;
+    display: grid;
+    grid-template-columns: 1fr min-content 1fr;
+    align-items: center;
+}
+
+.header_menu {
+    
+}
+
+.header_links-list {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 133px;
+    padding-bottom: 138px;
+    padding-left: 50px;
+    list-style: circle;
+    
+}
+
+.header_links-list-item {
+    
+
+}
+
+
+.header_link {
+    font-size: 18px;
+    line-height: 21.13px;
+
+    
+
+}
+
+.header_logo {
+    text-align: center;
+    padding-top: 92px;
+    padding-bottom: 96px;
+}
+
+.header_logo_image {
+    width: 148px;
+    height: 105px;
+
+}
+
+.address {
+    display: grid;
+}
+
+.header_address {
+    display: grid;
+    font-style: normal;
+    justify-self: end;
+    padding-top: 95px;
+    padding-bottom: 100px;
+    font-size: 18px;
+    list-style: none;
+    line-height: 24.3px;
+    text-underline-offset: 4px;
+    max-width: 240px;
+}
+
+
+
+.cover {
+    height: 757px;
+    background-image: url("/images/cover.jpg");
+    background-size: cover;
+    position: relative;
+    
+}
+
+.overlay {
+    background: black;
+    opacity: 60%;
+    inset: 0;
+    position: absolute;
+}
+
+.cover_title {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 115px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    
+}
+
+.aligned-text {
+    display: flex;
+    justify-content: start;
+    padding: 164px 0 0 50px;
+    
+
+}
+
+.aligned-text_center {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 18px 0 0 28px;
+    
+
+}
+
+.aligned-text_right {
+    display: flex;
+    justify-content: end;
+    padding: 18px 20px 0 0;
+
+}
+
+
+.cover_description {
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    padding: 106px 0 50px 0;
+    z-index: 2;
+    align-items: center;
+    margin-left: 50px;
+    position: relative;
+}
+
+.cover__description-text {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    text-transform: uppercase;
+    display: flex;
+    /*word-spacing*/
+}
+
+.bet-button {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 25.83px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    border: medium none;
+	background: transparent;
+	float: left;
+	background-color: transparent;
+}
+
+.lots__heading {
+
+}
+
+.lots__card-list {
+
+}
+
+.lots__card-list-item {
+
+}
+
+.card__title {
+
+}
+
+.card_type_film {
+    background-image: url(/images/card-lot-01.jpg);
+}
+
+
+
+
+
+.about {
+
+}
+
+.footer {
+
+}
