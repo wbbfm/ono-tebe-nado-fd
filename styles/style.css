@@ -11,7 +11,7 @@
     gap: 26px;
     padding-top: 138px;
     padding-bottom: 140px;
-    text-underline-offset: 4px;  
+    text-underline-offset: 4px;
 }
 
 .header__links-list-item_no-bullit {
@@ -206,11 +206,11 @@
 }
 
 .card_book {
-    background-image: url("../images/card-lot-02.jpg");  
+    background-image: url("../images/card-lot-02.jpg");
 }
 
 .card_picture {
-    background-image: url("../images/card-lot-03.jpg"); 
+    background-image: url("../images/card-lot-03.jpg");
 }
 
 .lots_look-more-link {
@@ -309,7 +309,7 @@
 }
 
 .footer__menu-link_active {
-    text-decoration: none; 
+    text-decoration: none;
 }
 
 .footer_social-list {
